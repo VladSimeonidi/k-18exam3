@@ -1,0 +1,13 @@
+@font-face {
+	font-family: EuropeExt;
+	src:url("../fonts/europeext_normal-webfont.woff2") format("woff2"),
+		url("../fonts/europeext_normal-webfont.woff") format("woff");
+		font-weight: 400;
+}
+
+@font-face {
+	font-family: EuropeExt;
+	src:url("../fonts/europeext_bold-webfont.woff2") format("woff2"),
+		url("../fonts/europeext_bold-webfont.woff") format("woff");
+		font-weight: 700;
+}
