@@ -313,7 +313,11 @@ body {
 
 .wrapper_3 {
 	width: 100%;
-	min-height: 720px;
+	-webkit-webkit-: min-height: 720px;
+	-moz-webkit-: min-height: 720px;
+	-o-webkit-: min-height: 720px;
+	webkit-: min-height: 720px;
+	min-height: 700px;
 	background-image: url(../images/background/youtube.jpg);
 	background-repeat: no-repeat;
 	background-position: top;
@@ -544,13 +548,21 @@ body {
 }
 
 .content_4__rombs__img2 {
-	align-self: center;
+	margin-top: 50px;
+	-webkit-webkit: align-self: center;
+	-moz-webkit: align-self: center;
+	-o-webkit: align-self: center;
+	webkit: align-self: center;
 	height: auto;
 	width: auto;
 }
 
 .content_4__rombs__img {
-	align-self: flex-end;
+	margin-top: 99px;
+	-webkit-webkit-: align-self: flex-end;
+	-moz-webkit-: align-self: flex-end;
+	-o-webkit-: align-self: flex-end;
+	webkit-: align-self: flex-end;
 	height: auto;
 	width: auto;
 }
@@ -713,12 +725,79 @@ body {
 	text-transform: uppercase;
 	letter-spacing: -1px;
 	margin-top: 46px;
-	margin-bottom: 0;
+	margin-bottom: 23px;
 }
 
-/*grid layout*/
 
-.grid__2 {
+/*start-flexbox*/
+
+.flex-wrapper {
+
+}
+
+.flexbox {
+	display: flex;
+	max-width: 1225px;
+	min-width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 5px;
+	font-size: 0.875em;
+}
+
+
+.flex_img_1 {
+	background-color: red;
+	opacity: 0.25;
+	min-width: 5%;
+}
+
+.flex_img_2 {
+	background-color: red;
+	opacity: 0.5;
+	min-width: 5%;
+}
+
+.flex_img_3 {
+	background-color: green;
+	opacity: 0.5;
+	min-width: 5%;
+}
+
+.flex_img_4 {
+	background-color: green;
+	opacity: 0.25;
+	min-width: 5%;
+}
+
+.sad_smile {
+	background-color: red;
+	background-image: url(../images/sad-smile.png);
+	background-repeat: no-repeat;
+	background-position: 5.5% 30%;
+	padding-top: 1.2%;
+	padding-left: 6%;
+	padding-bottom: 1%;
+	color: white;
+	width: 29%;
+	margin-right: 10px;
+}
+
+.glad_smile {
+	width: 51%;
+	background-color: #01983b;
+	background-image: url(../images/happy-smile.png);
+	background-repeat: no-repeat;
+	background-position: 3% 30%;
+	color: white;
+	padding-top: 1.2%;
+	padding-left: 6%;  
+	padding-bottom: 1%;
+}
+
+/*grid layout
+
+/*.grid__2 {
 	display: grid;
 	grid-template-columns: 1fr 1fr 6fr 10fr 1fr 1fr;
 	grid-row-gap: 5px;
@@ -768,6 +847,7 @@ body {
 	background-color: rgba(1, 152, 59, 0.6);
 }
 
+*/
 
 /*block 7*/
 
@@ -784,6 +864,7 @@ body {
 }
 
 .content_7_header-1 {
+	margin-top: 55px;
 	width: 100%;
 	text-align: center;
 }
