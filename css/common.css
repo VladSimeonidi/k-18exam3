@@ -1,6 +1,8 @@
 body {
 	font-family: Arial, sans-serif;
 	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 } 
 
 /*header*/
@@ -306,7 +308,7 @@ body {
 .shadow-1 > * {
 	position: absolute;
 	top: -34px;
-	left: -225px;
+	width: 100%;
 }
 
 /*block__3*/
@@ -350,11 +352,13 @@ body {
 
 
 /*iframe video*/
+.video {
+	position: relative;
+	margin-top: 13px;
+}
 
 .iframe-video {
-	margin-top: 13px;
-	position: relative;
-	padding-top: 25%;
+	padding-top: 26%;
 	width: 100%;
 	height: 100%;
 }
@@ -364,24 +368,27 @@ body {
 	top: 0;
 	left: 325px;
 	width: 47%;
+	height: 100%;
+	z-index: 5;
 }
 
-.shadow-2 {
-	position: relative;
-}
 
 .shadow-2 > * {
 	position: absolute;
-	top: -5px;
-	left: 210px;
+	bottom: -50px;
+	left: 17%;
 }
 
 
 
 .text-content {
-	margin-top: 65px;
+	margin-top: 55px;
 	text-align: center;
 	color: #0a274d;
+	letter-spacing: -1px;
+}
+
+.text-content p {
 	letter-spacing: -1px;
 }
 
@@ -451,6 +458,12 @@ body {
 	margin-right: auto;
 }
 
+.usage {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
 /*background images with shadow*/
 
 .block__1 {
@@ -459,6 +472,7 @@ body {
 	background-image: url(../images/shadows/preshadow.png), url(../images/background/slaves.png);
 	background-size: 100% 100%;
 	background-repeat: no-repeat, no-repeat;
+	width: 50%;
 }
 
 .block__2 {
@@ -467,6 +481,8 @@ body {
 	background-image: url(../images/shadows/preshadow.png), url(../images/background/slaves2.jpg);
 	background-size: 100% 100%;
 	background-repeat: no-repeat, no-repeat;
+	width: 49.5%;
+	margin-left: 5px;
 }
 
 .content_4__header {
@@ -686,6 +702,7 @@ body {
 .content_5__table_img {
 	position: absolute;
 	top: -23px;
+	width: 100%;
 }
 
 .table_font-color {

@@ -17,3 +17,4 @@ $('.lightbox').slick({
   arrows: false,
   infinite: false
 });
+
