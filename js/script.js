@@ -18,3 +18,6 @@ $('.lightbox').slick({
   infinite: false
 });
 
+$("#menuToggle").click(function() {
+  $(".block_1").toggleClass('burger__dispaly');
+});
