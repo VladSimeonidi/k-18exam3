@@ -689,14 +689,16 @@
 }
 .animated-modal_submit, .animated-modal_reset {
 	font-size: 5vw;
+	width: 100%;
 }
 .animated-modal_reset {
 	float: left;
+	margin-top: 10px;
 }
 }
 
 @media (max-width: 350px) {
-	.content_3_header {
+.content_3_header {
     font-size: 14px;
     letter-spacing: 0.5px;
 }
