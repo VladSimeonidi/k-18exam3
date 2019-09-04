@@ -398,6 +398,7 @@
 	max-width: 555px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 15px;
 }
 .animated__modal__h2,.animated__modal__input_fonsz,.animated__modal__p {
 	font-size: 2vw;
@@ -410,7 +411,9 @@
 	line-height: 3vw;
 	padding-left: 1%;
 }
-
+.content_4__rombs__img2,.content_4__rombs__img {
+    margin-top: 15px;
+}
 }
 
 @media (max-width: 920px) {
@@ -502,6 +505,9 @@
 @media (max-width: 650px) {
 .burger__dispaly {
 	display: block !important;
+}
+.header__menu__text {
+	font-family:  EuropeExt;
 }
 .wrapper {
 	height: 100%;
@@ -608,6 +614,8 @@
 }
 }
 
+}
+
 @media (max-width: 480px) {
 .content_5__table_2, .content_5__table_3 {
 	font-size: 12px;
@@ -656,14 +664,14 @@
 }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 380px) {
 .wrapper_7 {
 		display: none;
 }
-.content_4__rombs__img {
-    margin-top: 25px;
+.content_4__rombs {
+	padding-left: 0;
+	padding-right: 0;
 }
-
 .input_width {
     width: 80%;
     line-height: 20px;
@@ -750,7 +758,6 @@
 }
 .content_2_paragh_3 {
 	font-size: 14px;
-
 } 
 .content_3_img {
 	width: 70%;
