@@ -1,3 +1,4 @@
+
 $('.slider').slick({
   dots: true,
   infinite: true,
@@ -21,3 +22,4 @@ $('.lightbox').slick({
 $("#menuToggle").click(function() {
   $(".block_1").toggleClass('burger__dispaly');
 });
+

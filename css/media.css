@@ -385,6 +385,11 @@
 .content_4__rombs {
 	flex-wrap: wrap;
 }
+.animated__modal__h2 {
+	margin-top: 20px;
+	font-size: 1.8vw;
+	line-height: 3vw;
+}
 }
 
 @media (max-width: 940px) {
@@ -394,6 +399,18 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+.animated__modal__h2,.animated__modal__input_fonsz,.animated__modal__p {
+	font-size: 2vw;
+	line-height: 3vw;
+}
+
+.animated__modal__input_text,.animated__modal__input_number,.animated__modal__input_e-mail {
+	width: 100%;
+	font-size: 2vw;
+	line-height: 3vw;
+	padding-left: 1%;
+}
+
 }
 
 @media (max-width: 920px) {
@@ -468,6 +485,17 @@
 .slick-next,.slick-prev {
 	top: 60px;
 	width: 35px;
+}
+.animated__modal__h2,.animated__modal__input_fonsz,.animated__modal__p {
+	font-size: 2vw;
+	line-height: 3vw;
+}
+
+.animated__modal__input_text,.animated__modal__input_number,.animated__modal__input_e-mail {
+	width: 100%;
+	font-size: 2.2vw;
+	line-height: 3vw;
+	padding-left: 1%;
 }
 }
 
@@ -567,6 +595,17 @@
 .iframe-video * {
 	left: 50%;
 }
+.animated__modal__h2,.animated__modal__input_fonsz,.animated__modal__p {
+	font-size: 2.3vw;
+}
+
+.animated__modal__input_text,.animated__modal__input_number,.animated__modal__input_e-mail {
+	width: 100%;
+	font-size: 2.2vw;
+}
+.animated-modal_submit, .animated-modal_reset {
+	font-size: 2vw;
+}
 }
 
 @media (max-width: 480px) {
@@ -584,6 +623,20 @@
 }
 .shadow-2 > * {
     bottom: -30px;
+}
+.animated__modal__h2,.animated__modal__input_fonsz,.animated__modal__p {
+	font-size: 3vw;
+	line-height: 4vw;
+}
+
+.animated__modal__input_text,.animated__modal__input_number,.animated__modal__input_e-mail {
+	width: 100%;
+	font-size: 3vw;
+	line-height: 4vw;
+	padding-left: 1%;
+}
+.animated-modal_submit, .animated-modal_reset {
+	font-size: 3vw;
 }
 }
 
@@ -621,6 +674,24 @@
 }
 .content_5 {
     padding-bottom: 15px;
+}
+.animated__modal__h2,.animated__modal__input_fonsz,.animated__modal__p {
+	font-size: 4vw;
+	line-height: 7vw;
+	margin-top: 10px;
+}
+
+.animated__modal__input_text,.animated__modal__input_number,.animated__modal__input_e-mail {
+	width: 100%;
+	font-size: 4vw;
+	line-height: 6vw;
+	padding-left: 1%;
+}
+.animated-modal_submit, .animated-modal_reset {
+	font-size: 5vw;
+}
+.animated-modal_reset {
+	float: left;
 }
 }
 
