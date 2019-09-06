@@ -1,3 +1,13 @@
+@media (max-width: 1920px) {
+.wrapper_5 {
+  	background-position: 0 194px;
+}
+}
+@media (max-width: 1650px) {
+.wrapper_5 {
+  	background-position: 30% 194px;
+}
+}
 @media (max-width: 1225px) {
 .wrapper {
 	height: 59px;
