@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('body').append('<a href="#" id="go-top" title="Вверх">Вверх</a>');
+  $('body').append('<a href="#" id="popup__toggle" onclick="return false;"><div class="circlephone" style="transform-origin: center;"></div><div class="circle-fill" style="transform-origin: center;"></div><div class="img-circle" style="transform-origin: center;"><div class="img-circleblock" style="transform-origin: center;"></div></div></a>');
 
   $('.slider').slick({
   dots: true,
@@ -41,5 +41,5 @@ $(function() {
  }
 });
 $(function() {
- $("#go-top").scrollToTop();
+ $("#popup__toggle").scrollToTop();
 });

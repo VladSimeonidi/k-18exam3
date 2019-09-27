@@ -626,8 +626,6 @@
 }
 }
 
-}
-
 @media (max-width: 480px) {
 .content_5__table_2, .content_5__table_3 {
 	font-size: 12px;
@@ -659,7 +657,6 @@
 	font-size: 3vw;
 }
 }
-
 @media (max-width: 400px) {
 .content_5__table_2, .content_5__table_3 {
 		font-size: 10px;
@@ -674,6 +671,9 @@
 .sad_smile {
     padding-right: 3%;
 }
+#popup__toggle {
+	bottom:15px;
+	right:-25px;
 }
 
 @media (max-width: 380px) {
