@@ -910,6 +910,7 @@ body {
 
 .lightbox_img {
 	height: 205px;
+	cursor: zoom-in;
 }
 
 .lightbox-under {
@@ -1331,4 +1332,5 @@ opacity: .1;}}
 @keyframes circle-fill-anim {
   0% {transform: rotate(0deg) scale(0.7) skew(1deg);opacity: .2;}
   50% {transform: rotate(0deg) scale(1) skew(1deg);opacity: .2;}
-  100% {transform: rotate(0deg) scale(0.7) skew(1deg);opacity: .2;}}
+  100% {transform: rotate(0deg) scale(0.7) skew(1deg);opacity: .2;}
+}

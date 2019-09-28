@@ -12,7 +12,6 @@ $(document).ready(function(){
   cssEase: 'linear'
 });
 
-
 $('.lightbox').slick({
   infinite: true,
   slidesToShow: 5,
