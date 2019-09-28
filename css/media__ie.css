@@ -1,0 +1,8 @@
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+	.wrapper_2 {
+		margin-bottom: -30px;
+	}
+	.wrapper_8 {
+		margin-bottom: -25px;
+	}
+}
