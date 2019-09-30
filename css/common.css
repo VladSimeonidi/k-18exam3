@@ -910,7 +910,7 @@ body {
 
 .lightbox_img {
 	height: 205px;
-	cursor: zoom-in;
+	cursor: pointer;
 }
 
 .lightbox-under {
@@ -1333,4 +1333,54 @@ opacity: .1;}}
   0% {transform: rotate(0deg) scale(0.7) skew(1deg);opacity: .2;}
   50% {transform: rotate(0deg) scale(1) skew(1deg);opacity: .2;}
   100% {transform: rotate(0deg) scale(0.7) skew(1deg);opacity: .2;}
+}
+
+/*pointer logo*/
+
+/*.pointer__logo {
+	width: 13px;
+	position: absolute;
+	z-index: 9999;
+}*/
+
+.mause_click {
+	width: 20px;
+	height: 20px;
+	border: 1px solid #27ae60;
+	position: absolute;
+	pointer-events: none;
+	border-radius: 50%;
+	z-index: 9999;
+	animation: smallround 0.15s infinite alternate;
+}
+.mause_click::after {
+	content: '';
+	width: 20px;
+	height: 20px;
+	border: 8px solid #27ae60;
+	opacity: 0.5;
+	position: absolute;
+	pointer-events: none;
+	border-radius: 50%;
+	top: -8px;
+	left: -8px;
+	animation: biground 0.15s infinite alternate;
+}
+
+@keyframes smallround {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(0.7);
+	}
+}
+
+@keyframes biground {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(0.4);
+	}
 }
