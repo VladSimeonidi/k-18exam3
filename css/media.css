@@ -164,7 +164,7 @@
 	width: 305px;
 	border-radius: 5px;
 	background-image: url(../images/pattern.png);
-	padding-top: 5px;
+	padding-top: 10px;
 	padding-bottom: 5px;
 	box-shadow: 0 0 5px black;
 	user-select: none;
@@ -403,6 +403,9 @@
 }
 
 @media (max-width: 940px) {
+.content_4 {
+	padding-bottom: 10px;
+}
 .content_4__rombs {
 	flex-wrap: wrap;
 	max-width: 555px;
@@ -624,6 +627,22 @@
 .animated-modal_submit, .animated-modal_reset {
 	font-size: 2vw;
 }
+.header__menu {
+	position: relative;
+	z-index: 1000;
+}
+.block_1 {
+	position: relative;
+	animation: blocker 2s alternate;
+}
+@keyframes blocker {
+	from {
+		left: -1000px;
+	}
+	to {
+		left: 0;
+	}
+}
 }
 
 @media (max-width: 480px) {
@@ -759,7 +778,7 @@
     font-size: 15px;
 }
 .nav__link {
-    padding: 8px 0;
+    padding: 8px 10px;
 }
 .content_2_paragh_1 {
 	margin-top: 29px;

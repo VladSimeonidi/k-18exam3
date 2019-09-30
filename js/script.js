@@ -48,7 +48,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const cursor = document.querySelector('.mause');
     document.addEventListener('mousemove', function (e) {
     cursor.setAttribute('style', 'top: '+(e.pageY -10)+'px; left: '+(e.pageX -10)+'px;');
-    console.log(e);
 });
   document.addEventListener('click', function() {
     cursor.classList.add('mause_click');
