@@ -581,6 +581,7 @@ body {
 }
 .content_4__rombs__img2:hover img,.content_4__rombs__img:hover img {
 	transform: scale(1.1);
+	-ms-transform: scale(1.1, 1.1);
 }
 .content_4__rombs__img > img {
 	height: 180px;
